@@ -9,7 +9,7 @@ public class LivrosResources {
 	
 	@RequestMapping(value = "/livros", method = RequestMethod.GET)
 	public String listar() {
-		return "A arte da guerra, 1984, O pequeno príncipe, Dona flor e seus 2 maridos";
+		return "O pequeno príncipe, Dona flor e seus 2 maridos";
 	}
 
 }
